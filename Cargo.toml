@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+num = "0.4"
+sha2 = "0.10"
+thiserror = "2.0.11"
+num-bigint = { version = "0.4.6" , features = ["rand"]}
+num-traits = "0.2.19"
+log = "0.4.25"
+rand = "0.8.0"
